@@ -6,8 +6,6 @@
     <p>
       <%= @news_item.content %>
     </p>
+    <%= link_to 'Edit', edit_news_item_path(@news_item) %>
+    <%= link_to 'Back', root_path %>
 </div>
-
-
-<%= link_to 'Edit', edit_news_item_path(@news_item) %> |
-<%= link_to 'Back', root_path %>
